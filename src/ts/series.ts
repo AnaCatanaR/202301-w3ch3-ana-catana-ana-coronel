@@ -1,4 +1,4 @@
-import { type Series } from "./types";
+import { type Series } from "./types.js";
 
 const series: Series = [
   {
