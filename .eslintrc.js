@@ -13,6 +13,7 @@ module.exports = {
           "error",
           "interface",
         ],
+        "max-params": ["error", 5],
       },
     },
   ],
