@@ -1,6 +1,6 @@
-import { type Series } from "./types.js";
+import { type SeriesStructure } from "./types";
 
-const series: Series = [
+const series: SeriesStructure[] = [
   {
     id: 1,
     name: "The Sopranos",
@@ -48,7 +48,8 @@ const series: Series = [
     name: "Atypical",
     creator: "Robia Rashid",
     year: 2017,
-    poster: "https://www.cine.com/media/series/2711.jpg",
+    poster:
+      "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Atypical_p%C3%B3ster.jpg/250px-Atypical_p%C3%B3ster.jpg",
     isWatched: false,
     score: 0,
     emmies: 0,

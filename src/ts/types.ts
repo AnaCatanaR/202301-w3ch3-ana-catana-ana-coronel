@@ -12,5 +12,3 @@ export interface SeriesStructure {
   score: 0 | 1 | 2 | 3 | 4 | 5;
   emmies: number;
 }
-
-export type Series = SeriesStructure[];
